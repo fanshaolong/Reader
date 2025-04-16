@@ -40,4 +40,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          skopeo copy docker://docker.io/kong/httpbin:0.2.3 docker://${{ secrets.ALI_PERSONAL_DOCKER_REGISTIGY_URL }}/cloud-native-home/httpbin：0.2.3
+          skopeo copy docker://docker.io/kong/httpbin:0.2.3 docker://${{ secrets.ALI_PERSONAL_DOCKER_REGISTIGY_URL }}/dev/httpbin：0.2.3
