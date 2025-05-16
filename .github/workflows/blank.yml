@@ -41,3 +41,4 @@ jobs:
           echo Add "other actions to build: ${{ secrets.ALI_PERSONAL_DOCKER_REGISTIGY_URL }}",
           echo test, and deploy your project,
           skopeo copy docker://docker.io/kong/httpbin:0.2.3 docker://${{ secrets.ALI_PERSONAL_DOCKER_REGISTIGY_URL }}/namespave-dev/httpbin:0.2.3
+          skopeo copy docker://docker.io/library/eclipse-temurin:8-jre docker://${{ secrets.ALI_PERSONAL_DOCKER_REGISTIGY_URL }}/namespave-dev/eclipse-temurin:8-jre
